@@ -1,0 +1,32 @@
+.m-5 {
+  background-color: tomato;
+}
+.content__wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form--custom {
+  width: auto;
+}
+
+.checked {
+  color: #ccc;
+  text-decoration: line-through; /*這行是代表check，文字中線畫一行*/
+  font-style: italic;
+}
+
+.fa {
+  margin: 0 5px;
+  color: #bbb;
+}
+
+li > label[for="todo"] {
+  width: 210px;
+  margin-bottom: 0.5rem;
+}
+
+#my-done {
+  padding-left: 0;
+}
